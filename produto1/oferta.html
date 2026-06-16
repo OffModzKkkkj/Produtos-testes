@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        body { margin: 0; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: linear-gradient(135deg, #F0FFF4 0%, #FFFFFF 100%);
+            display: flex;
+            flex-direction: column;
+            font-family: 'Open Sans', sans-serif;
+            position: relative;
+            color: #2D3436;
+        }
+        .accent-bar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 10px;
+            background: #00B894;
+        }
+        .header {
+            padding-top: 60px; /* do not change */
+            text-align: center;
+        }
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 56px;
+            color: #2D3436;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            font-size: 28px;
+            color: #00B894;
+            font-weight: bold;
+            margin-bottom: 20px; /* reduced to save height */
+        }
+        .offer-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px; /* reduced gap */
+            padding-top: 10px; /* reduced */
+        }
+        .price-box {
+            text-align: center;
+            background: #FFFFFF;
+            padding: 30px; /* reduced padding */
+            border-top: 8px solid #00B894;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
+            width: 380px; /* slightly smaller */
+        }
+        .old-price {
+            font-size: 24px;
+            color: #B2BEC3;
+            text-decoration: line-through;
+            margin-bottom: 5px;
+        }
+        .new-price {
+            font-size: 72px;
+            font-family: 'Montserrat', sans-serif;
+            color: #2D3436;
+            font-weight: bold;
+            margin-bottom: 5px;
+            line-height: 1;
+        }
+        .price-label {
+            font-size: 18px; /* slightly smaller */
+            color: #636E72;
+            margin-bottom: 20px; /* reduced */
+        }
+        .cta-button {
+            background: #00B894;
+            color: white;
+            padding: 16px 32px; /* reduced */
+            font-size: 22px; /* slightly smaller */
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            text-transform: uppercase;
+            display: inline-block;
+        }
+        .guarantee-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 280px; /* slightly smaller */
+            text-align: center;
+        }
+        .guarantee-box i {
+            font-size: 60px; /* reduced icon size */
+            color: #00B894;
+            margin-bottom: 12px;
+        }
+        .guarantee-box h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 22px;
+            margin-bottom: 8px;
+        }
+        .guarantee-box p {
+            font-size: 15px; /* slightly smaller */
+            color: #636E72;
+            line-height: 1.4;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="accent-bar"></div>
+        <div class="header">
+            <h2>Sua Nova Vida Começa Agora!</h2>
+            <div class="subtitle">Oferta Exclusiva por Tempo Limitado</div>
+        </div>
+        <div class="offer-container">
+            <div class="price-box">
+                <div class="old-price">De R$ 97,00</div>
+                <div class="new-price">R$ 29,90</div>
+                <div class="price-label">Pagamento Único • Acesso Vitalício</div>
+                <div class="cta-button">Quero Minha Barriga Zero</div>
+            </div>
+            <div class="guarantee-box">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Garantia Incondicional</h3>
+                <p>Você tem 7 dias para testar o protocolo. Se não ver resultados ou não gostar, devolvemos 100% do seu dinheiro sem perguntas.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

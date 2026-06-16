@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: linear-gradient(135deg, #FFFFFF 0%, #F0FFF4 100%);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Open Sans', sans-serif;
+            position: relative;
+            color: #2D3436;
+        }
+        body { margin: 0; }
+        .accent-bar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 10px;
+            background: #00B894;
+        }
+        .content-box {
+            text-align: center;
+            max-width: 900px;
+            padding-top: 40px; /* must not change (title spacing) */
+        }
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 64px;
+            color: #2D3436;
+            margin-bottom: 20px;
+            line-height: 1.1;
+        }
+        .subtitle {
+            font-size: 32px;
+            color: #00B894;
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+        .main-points {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 20px; /* reduced from 40px to save vertical space */
+        }
+        .point {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 14px; /* reduced from 20px */
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 184, 148, 0.1);
+            width: 250px;
+        }
+        .point i {
+            font-size: 40px;
+            color: #00B894;
+            margin-bottom: 12px; /* slightly reduced */
+        }
+        .point p {
+            font-size: 18px;
+            line-height: 1.4;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="accent-bar"></div>
+        <div class="content-box">
+            <h1>Protocolo Barriga Zero</h1>
+            <div class="subtitle">O Inimigo Oculto que Impede Você de Emagrecer</div>
+            <div class="main-points">
+                <div class="point">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <p>Você sente que seu corpo está sempre inchado?</p>
+                </div>
+                <div class="point">
+                    <i class="fas fa-weight"></i>
+                    <p>A balança não desce, não importa o esforço?</p>
+                </div>
+                <div class="point">
+                    <i class="fas fa-fire"></i>
+                    <p>O problema é a <b>inflamação crônica</b> que trava tudo.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

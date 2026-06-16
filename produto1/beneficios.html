@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        html, body { height:100%; margin:0; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            font-family: 'Open Sans', sans-serif;
+            position: relative;
+            color: #2D3436;
+        }
+        .accent-bar { position: absolute; top:0; left:0; width:100%; height:10px; background:#00B894; }
+        .header { padding-top: 60px; /* do not change */ text-align:center; }
+        h2 { font-family:'Montserrat',sans-serif; font-size:48px; color:#2D3436; margin-bottom:10px; }
+        .subtitle { font-size:24px; color:#636E72; margin-bottom:16px; }
+        .timeline { display:flex; justify-content:space-evenly; padding:12px 40px 0 40px; gap:12px; }
+        .step { flex:1; background:#F8F9FA; padding:16px 10px; text-align:center; border-top:8px solid #00B894; display:flex; flex-direction:column; align-items:center; }
+        .step-icon { width:80px; height:80px; background:#00B894; color:#fff; border-radius:50%; display:flex; justify-content:center; align-items:center; font-size:32px; margin-bottom:10px; }
+        .step h3 { font-family:'Montserrat',sans-serif; font-size:22px; color:#2D3436; margin-bottom:8px; text-transform:uppercase; }
+        .step p { font-size:16px; line-height:1.5; color:#636E72; margin:0; }
+        .summary-box { margin:12px 60px 0 60px; padding:12px; background:#F0FFF4; border:2px dashed #00B894; text-align:center; font-size:20px; font-weight:bold; color:#00B894; }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="accent-bar"></div>
+        <div class="header">
+            <h2>O Que Você Vai Conquistar</h2>
+            <div class="subtitle">Sua jornada de transformação em 3 etapas claras</div>
+        </div>
+        <div class="timeline">
+            <div class="step">
+                <div class="step-icon"><i class="fas fa-leaf"></i></div>
+                <h3>Semana 1: Detox</h3>
+                <p>Eliminação imediata de toxinas e redução visível do inchaço abdominal nos primeiros dias.</p>
+            </div>
+            <div class="step">
+                <div class="step-icon"><i class="fas fa-bolt"></i></div>
+                <h3>Semana 2: Queima</h3>
+                <p>Reativação do metabolismo adormecido e início da queima acelerada de gordura visceral.</p>
+            </div>
+            <div class="step">
+                <div class="step-icon"><i class="fas fa-shield-alt"></i></div>
+                <h3>Semana 3: Blindagem</h3>
+                <p>Consolidação dos resultados, aumento da energia e blindagem contra o efeito sanfona.</p>
+            </div>
+        </div>
+        <div class="summary-box">Uma transformação completa e visível em apenas 21 dias de protocolo!</div>
+    </div>
+</body>
+</html>
