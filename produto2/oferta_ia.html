@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=Inter&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        body { margin: 0; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #0A192F;
+            display: flex;
+            flex-direction: column;
+            font-family: 'Inter', sans-serif;
+            position: relative;
+            color: #8892B0;
+        }
+        .header {
+            padding-top: 60px;
+            text-align: center;
+        }
+        h2 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 56px;
+            color: #64FFDA;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            font-size: 28px;
+            color: #CCD6F6;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+        .offer-grid {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            padding-top: 10px;
+        }
+        .price-card {
+            background: #112240;
+            padding: 40px;
+            border: 2px solid #64FFDA;
+            text-align: center;
+            width: 420px;
+            box-shadow: 0 0 30px rgba(100, 255, 218, 0.1);
+        }
+        .old-price {
+            font-size: 24px;
+            color: #8892B0;
+            text-decoration: line-through;
+            margin-bottom: 5px;
+        }
+        .new-price {
+            font-size: 80px;
+            font-family: 'Space Grotesk', sans-serif;
+            color: #64FFDA;
+            font-weight: bold;
+            margin-bottom: 5px;
+            line-height: 1;
+        }
+        .price-info {
+            font-size: 18px;
+            color: #CCD6F6;
+            margin-bottom: 30px;
+        }
+        .cta-btn {
+            background: #64FFDA;
+            color: #0A192F;
+            padding: 20px 40px;
+            font-size: 24px;
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: bold;
+            text-transform: uppercase;
+            display: inline-block;
+            text-decoration: none;
+        }
+        .bonus-box {
+            max-width: 320px;
+        }
+        .bonus-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            background: rgba(100, 255, 218, 0.05);
+            padding: 15px;
+            border-right: 3px solid #64FFDA;
+        }
+        .bonus-item i {
+            font-size: 24px;
+            color: #64FFDA;
+            margin-right: 15px;
+        }
+        .bonus-item p {
+            font-size: 16px;
+            color: #CCD6F6;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <h2>Não Fique de Fora da Era da IA!</h2>
+            <div class="subtitle">Aproveite o Preço de Lançamento</div>
+        </div>
+        <div class="offer-grid">
+            <div class="price-card">
+                <div class="old-price">De R$ 147,00</div>
+                <div class="new-price">R$ 37,00</div>
+                <div class="price-info">Acesso Vitalício • Atualizações Inclusas</div>
+                <div class="cta-btn">Quero Ser Mestre da IA</div>
+            </div>
+            <div class="bonus-box">
+                <div class="bonus-item">
+                    <i class="fas fa-gift"></i>
+                    <p>Bônus: Bíblia de Prompts Exclusivos</p>
+                </div>
+                <div class="bonus-item">
+                    <i class="fas fa-users"></i>
+                    <p>Acesso à Comunidade de Alunos</p>
+                </div>
+                <div class="bonus-item">
+                    <i class="fas fa-certificate"></i>
+                    <p>Certificado de Conclusão Digital</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

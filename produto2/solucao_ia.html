@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=Inter&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        body { margin: 0; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px; /* keep as required */
+            background: #0A192F;
+            display: flex;
+            flex-direction: column;
+            font-family: 'Inter', sans-serif;
+            position: relative;
+            color: #8892B0;
+        }
+        .header {
+            padding-top: 60px; /* must not be changed */
+            text-align: center;
+        }
+        h2 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 48px;
+            color: #64FFDA;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            font-size: 24px;
+            color: #CCD6F6;
+            margin-bottom: 20px; /* reduced to save height */
+        }
+        .main-content {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 10px 80px 10px 80px; /* reduced padding */
+            gap: 24px; /* reduced gap */
+        }
+        .info-list {
+            flex: 1;
+            display: grid; /* switch to grid to reduce vertical stacking */
+            grid-template-columns: 1fr 1fr;
+            gap: 12px 16px;
+        }
+        .info-item {
+            display: flex;
+            align-items: flex-start;
+            margin: 0; /* remove large bottom margins */
+            background: rgba(100, 255, 218, 0.05);
+            padding: 12px; /* reduced padding */
+            border-right: 2px solid #64FFDA;
+            min-height: 0;
+        }
+        .info-item i {
+            font-size: 28px;
+            color: #64FFDA;
+            margin-right: 12px;
+            margin-top: 5px;
+        }
+        .info-text h3 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 24px; /* keep font-size */
+            color: #CCD6F6;
+            margin-bottom: 5px;
+        }
+        .info-text p {
+            font-size: 18px; /* keep font-size */
+            line-height: 1.5;
+            margin: 0;
+        }
+        .visual-element {
+            flex: 0.8;
+            text-align: center;
+            background: #112240;
+            padding: 20px; /* reduced padding */
+            border: 1px solid rgba(100, 255, 218, 0.2);
+            position: relative;
+        }
+        .visual-element i {
+            font-size: 100px; /* cannot be reduced */
+            color: #64FFDA;
+            margin-bottom: 12px;
+        }
+        .visual-element .tag {
+            background: #64FFDA;
+            color: #0A192F;
+            padding: 5px 12px;
+            font-weight: bold;
+            font-size: 14px;
+            position: absolute;
+            top: 16px;
+            right: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <h2>A Solução: Domine a Máquina</h2>
+            <div class="subtitle">Transforme seu celular em uma fonte de renda extra</div>
+        </div>
+        <div class="main-content">
+            <div class="info-list">
+                <div class="info-item">
+                    <i class="fas fa-bolt"></i>
+                    <div class="info-text">
+                        <h3>Velocidade Extrema</h3>
+                        <p>Faça em segundos o que especialistas levam horas para entregar.</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-check-double"></i>
+                    <div class="info-text">
+                        <h3>Simplicidade Total</h3>
+                        <p>Sem necessidade de conhecimento técnico. Apenas copie e cole.</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <div class="info-text">
+                        <h3>100% Celular</h3>
+                        <p>Trabalhe de qualquer lugar, precisando apenas de conexão à internet.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="visual-element">
+                <div class="tag">PRODUTO VALIDADO</div>
+                <i class="fas fa-microchip"></i>
+                <p style="color: #CCD6F6; font-size: 20px; font-weight: bold; margin: 8px 0 0 0;">IA + MÉTODO = LUCRO</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
